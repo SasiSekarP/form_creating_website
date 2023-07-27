@@ -1,0 +1,44 @@
+.formcreatingcontainer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(251, 251, 237);
+    padding: 2rem 12%;
+}
+
+.headerContainer{
+    box-shadow: black 0px 0px 2px;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.headerContainerleftimagecontainer{
+    width: 10rem;
+    overflow: hidden;
+    margin-right: 1rem;
+}
+
+.headerContainerrightcontainer{
+    flex: 1;
+}
+
+.headerContainerrightcontainerinputtag{
+    width: 100%;
+    padding: 1rem 0px;
+    border: 0px;
+    border-bottom: 1px solid black;
+}
+
+.headerContainerrightcontainerinputtag1{
+    font-size: 2rem;
+}
+
+.headerContainerrightcontainerinputtag2{
+    font-size: 1rem;
+}
+
+.headerContainerrightcontainerinputtag:focus{
+    outline: none;
+}
